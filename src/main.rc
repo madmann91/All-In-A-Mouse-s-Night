@@ -1,0 +1,30 @@
+1 ICON "main.ico"
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "All In A Mouse's Night"
+            VALUE "CompanyName", "MadMann's Company"
+            VALUE "FileDescription", "All In A Mouse's Night"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "All In A Mouse's Night"
+            VALUE "LegalCopyright", "Copyright (C) 2010"
+            VALUE "OriginalFilename", "All In A Mouse's Night.exe"
+            VALUE "ProductName", "All In A Mouse's Night"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
